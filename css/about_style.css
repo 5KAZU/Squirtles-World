@@ -1,0 +1,63 @@
+.text-body h2 {
+	font-size: 3vw;
+	text-align: center;
+}
+
+.text-body p {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	animation-name: blink-colour-animation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	background-color: #4E8098;
+}
+
+.jumbotron * {
+	padding-left: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 40%
+}
+
+.fade-in {
+	animation-name: fade-in-animation;
+	animation-duration: 4s;
+}
+
+@keyframes fade-in-animation{
+	from {
+		opacity: 0;
+		transform: rotate(-80deg);
+	}
+
+	to {
+		opaity: 1;
+		transforrm: rotate(0deg);
+	}
+}
+
+@keyframes blink-colour-animation {
+	0% {
+		color: #9EB7E5;
+	}
+	40% {
+		color: #648DE5;
+	}
+	80% {
+		color: #304C89;
+	}
+	100% {
+		color: #7699D4;
+	}
+}

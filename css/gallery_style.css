@@ -1,0 +1,26 @@
+#intro-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.right-col p {
+	text-align: center;
+}
+
+#carousel1 {
+    color: darkblue;
+    font-size: large;
+}
+
+#carousel2 {
+    color: darkblue;
+    font-size: small;
+}
+
+.carousel-inner {
+    margin: auto;
+    width: 40%;
+    align-items: center;
+}
